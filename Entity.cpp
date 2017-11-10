@@ -26,5 +26,13 @@ Entity::Entity(int x, int y, bool moveable, bool ai)
 	this->moveable;
 	this->ai = ai;
 }
-//TODO - implement other functions inside of Entity class
 
+//moving functions
+void Entity::moveUp()
+{
+	y++;
+}
+void Entity::moveDown()
+{
+	y--;
+}
