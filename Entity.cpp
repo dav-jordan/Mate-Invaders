@@ -28,6 +28,8 @@ Entity::Entity(int x, int y, bool moveable, bool ai)
 }
 
 //moving functions
+//moveRandom used for ai only
+//TODO Implement moveRandom
 void Entity::moveUp()
 {
 	y++;
@@ -35,4 +37,31 @@ void Entity::moveUp()
 void Entity::moveDown()
 {
 	y--;
+}
+void Entity::moveLeft()
+{
+	x--;
+}
+void Entity::moveRight()
+{
+	x++;
+}
+
+//accessors
+//@return whichever variable is in the name of the function
+int Entity::xPos()
+{
+	return x;
+}
+int Entity::yPos()
+{
+	return y;
+}
+bool isMoveable()
+{
+	return moveable;
+}
+bool isAi()
+{
+	return ai;
 }
