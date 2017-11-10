@@ -27,6 +27,8 @@ public:
 	//random used for enemies which will move randomly
 	void moveUp();
 	void moveDown();
+	void moveLeft();
+	void moveRight();
 	void moveRandom();
 
 	//basic accessors
