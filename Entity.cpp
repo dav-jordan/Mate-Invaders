@@ -16,14 +16,14 @@ Entity::Entity(int x, int y)
 {
 	this->x = x;
 	this->y = y;
-	this->moveable = true;
+	this->moveable = false;
 	this->ai = false;
 }
 Entity::Entity(int x, int y, bool moveable, bool ai)
 {
 	this->x = x;
 	this->y = y;
-	this->moveable;
+	this->moveable = moveable;
 	this->ai = ai;
 }
 
