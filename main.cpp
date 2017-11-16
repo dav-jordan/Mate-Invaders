@@ -3,7 +3,7 @@
 using namespace std;
 
 
-#define WIDTH atoi(getenv("COLUMNS"))
+#define WIDTH 200
 #define HEIGHT 100
 int main()
 {
