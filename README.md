@@ -11,3 +11,8 @@ CHANGELOG:
 
 11/10/17
 -Implemented accessors in Entity class
+
+11/16/17
+-Added Player, a subclass of Entity that will be used for the player ship
+-Added variables in Player class
+-Fixed a Seg Fault in main function
