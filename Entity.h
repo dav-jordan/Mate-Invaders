@@ -32,8 +32,8 @@ public:
 	void moveRandom();
 
 	//basic accessors
-	int xPos();
-	int yPos();
-	bool isMoveable();
-	bool isAi();	
+	int xPos() const;
+	int yPos() const;
+	bool isMoveable() const;
+	bool isAi() const;	
 };

@@ -49,19 +49,19 @@ void Entity::moveRight()
 
 //accessors
 //@return whichever variable is in the name of the function
-int Entity::xPos()
+int Entity::xPos() const
 {
 	return x;
 }
-int Entity::yPos()
+int Entity::yPos() const
 {
 	return y;
 }
-bool isMoveable()
+bool Entity::isMoveable() const
 {
 	return moveable;
 }
-bool isAi()
+bool Entity::isAi() const
 {
 	return ai;
 }
