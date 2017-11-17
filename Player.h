@@ -15,6 +15,15 @@ private:
 	const char * visual = "A";
 	const int moveRate = 5;	
 
+public:
+	//Constructors
+	Player();
+	
+	//accessors
+	const char * getVisual();
+	const int moveRate();
+	void getInput();
+
 /*TODO:
 	-Implement constructors
 	-Implement accessors
