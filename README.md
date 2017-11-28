@@ -16,3 +16,7 @@ CHANGELOG:
 -Added Player, a subclass of Entity that will be used for the player ship
 -Added variables in Player class
 -Fixed a Seg Fault in main function
+
+11/28/17
+-Added Makefile
+-Included headers for Player and Entity in main
