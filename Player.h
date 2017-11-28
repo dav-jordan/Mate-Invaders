@@ -1,3 +1,5 @@
+#pragma once
+
 #include <iostream>
 #include "Entity.h"
 
@@ -6,7 +8,7 @@ using namespace std;
 //class representing the ship that the player controls
 //This is a subclass of Entity so it has the variables that entity has along with 
 //others that are seen here
-class Player:Entity
+class Player: public Entity
 {
 //The player ship has a character that will be used to represent the ship on the sreen 
 //since images can not be used in a terminal
@@ -21,7 +23,7 @@ public:
 	
 	//accessors
 	const char * getVisual();
-	const int moveRate();
+	const int getMoveRate();
 	void getInput();
 
 /*TODO:

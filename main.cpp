@@ -1,5 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
+#include "Entity.h"
+#include "Player.h"
 using namespace std;
 
 
