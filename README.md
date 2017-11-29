@@ -20,3 +20,6 @@ CHANGELOG:
 11/28/17
 -Added Makefile
 -Included headers for Player and Entity in main
+
+11/29/17
+-Implemented Player Constructor and Accessors
