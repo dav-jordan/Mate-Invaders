@@ -8,7 +8,7 @@ namespace game
 {
 	//@param- array to print 
 	//prints gamespace array
-	void printGame(char** space)
+	void printGame(char space[][50])
 	{
 		cout << "Printing gamespace" << endl;
 	}

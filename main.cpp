@@ -8,8 +8,8 @@ using namespace std;
 using namespace game;
 
 
-#define WIDTH 200
-#define HEIGHT 100
+#define WIDTH 50
+#define HEIGHT 50
 int main()
 {
 	//to indicate the file has been excecuted
@@ -25,6 +25,7 @@ int main()
 		gamespace[WIDTH-1][i] = '\n';
 	}
 	gameLoop();
+	printGame(gamespace);
 
 	exit(1);
 	
