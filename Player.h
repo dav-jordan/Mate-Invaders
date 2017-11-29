@@ -22,8 +22,8 @@ public:
 	Player(int, int, bool, bool);
 	
 	//accessors
-	const char * getVisual();
-	const int getMoveRate();
+	const char * getVisual() const;
+	const int getMoveRate() const;
 	void getInput();
 
 /*TODO:

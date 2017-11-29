@@ -7,12 +7,12 @@ using namespace std;
 Player::Player(int x, int y, bool moveable, bool ai):Entity(x, y, moveable, ai)
 {}
 
-const char * Player::getVisual()
+const char * Player::getVisual() const
 {
 	return visual;
 }
 
-const int Player::getMoveRate()
+const int Player::getMoveRate() const
 {
 	return moveRate;
 }
