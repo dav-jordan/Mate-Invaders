@@ -19,7 +19,7 @@ private:
 
 public:
 	//Constructors
-	Player();
+	Player(int, int, bool, bool);
 	
 	//accessors
 	const char * getVisual();
