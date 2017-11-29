@@ -23,3 +23,5 @@ CHANGELOG:
 
 11/29/17
 -Implemented Player Constructor and Accessors
+-Added basic game methods in game namespace. Still need implementation
+-TODO-figure out how to continue program while waiting for input-threading
