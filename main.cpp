@@ -2,7 +2,10 @@
 #include <stdlib.h>
 #include "Entity.h"
 #include "Player.h"
+#include "Game.h"
+
 using namespace std;
+using namespace game;
 
 
 #define WIDTH 200
@@ -21,12 +24,7 @@ int main()
 			gamespace[k][i] = ' ';
 		gamespace[WIDTH-1][i] = '\n';
 	}
-	
-	//**TESTING ONLY**
-	//print initialized array
-	for(int i = 0; i < HEIGHT; i++)
-		for(int k = 0; k < WIDTH; k++)
-			cout << gamespace[k][i];
+	gameLoop();
 
 	exit(1);
 	
