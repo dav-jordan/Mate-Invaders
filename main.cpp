@@ -15,9 +15,7 @@ int main()
 	//to indicate the file has been excecuted
 	cout << "File successfully ran!" << endl;
 	//2d array to represent positions on the terminal screen
-	char gamespace[WIDTH][HEIGHT];
-	char c;
-	cin >> c;	
+	char gamespace[WIDTH][HEIGHT];	
 	//initialize the gamespace array
 	for(int i = 0; i < HEIGHT; i++)
 	{
@@ -25,6 +23,8 @@ int main()
 			gamespace[k][i] = ' ';
 		gamespace[WIDTH-1][i] = '\n';
 	}
+	char c;
+	cin >> c;
 	if(c == 'w')
 		gameLoop();
 	printGame(gamespace);
