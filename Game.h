@@ -13,6 +13,13 @@ namespace game
 	//prints gamespace array
 	void printGame(char space[][50], int width, int height)
 	{
+        for(int i = 0; i < width; i++)
+        {
+            for(int k = 0; k < height; k++)
+            {
+                cout << space[i][k] << endl;
+            }
+        }
 
 	}
 
@@ -44,6 +51,7 @@ namespace game
                 break;
             }
 
+            printGame(space, width, height);
         }
 	}	
 };
