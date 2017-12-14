@@ -19,8 +19,3 @@ const int Player::getMoveRate() const
 {
 	return moveRate;
 }
-
-//TODO: Implement getInput
-//takes input from keyboard and acts accordingly
-void getInput()
-{}

@@ -24,7 +24,6 @@ public:
 	//accessors
 	const char * getVisual() const;
 	const int getMoveRate() const;
-	void getInput();
 
 /*TODO:
 	-Implement constructors
