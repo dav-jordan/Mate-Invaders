@@ -14,8 +14,11 @@ namespace game
 	{
 		cout << "Printing gamespace" << endl;
 	}
-	
+
+    //@param-player object for player currently playing the game
+    //      -array that will be passed to printGame to be pirnted
 	//loop that keeps going until the game ends
+    //handles player movement and action
 	void playerLoop(Player *player, char space[][50])
 	{
 		cout << "Running game loop" << endl;
@@ -23,6 +26,7 @@ namespace game
         {
             char input;
             cin >> input;
+
             if(input == 'a')
             {
                 player->moveLeft();
@@ -35,6 +39,7 @@ namespace game
             {
                 break;
             }
+
         }
 	}	
 };
