@@ -8,18 +8,20 @@ using namespace std;
 //TODO: implement functions
 namespace game
 {
-	//@param- array to print 
+	//@param- array to print
+    //      -width and height of space
 	//prints gamespace array
-	void printGame(char space[][50])
+	void printGame(char space[][50], int width, int height)
 	{
-		cout << "Printing gamespace" << endl;
+
 	}
 
     //@param-player object for player currently playing the game
     //      -array that will be passed to printGame to be pirnted
+    //      -width and height of array to be printed
 	//loop that keeps going until the game ends
     //handles player movement and action
-	void playerLoop(Player *player, char space[][50])
+	void playerLoop(Player *player, char space[][50], int width, int height)
 	{
 		while(true)
         {
