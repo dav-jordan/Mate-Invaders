@@ -21,12 +21,13 @@ namespace game
     //handles player movement and action
 	void playerLoop(Player *player, char space[][50])
 	{
-		cout << "Running game loop" << endl;
 		while(true)
         {
+            //take input from command line
             char input;
             cin >> input;
 
+            //check input and call appropriate function
             if(input == 'a')
             {
                 player->moveLeft();
@@ -37,6 +38,7 @@ namespace game
             }
             else if(input == '\b')
             {
+                //ends game if backspace is pressed
                 break;
             }
 
