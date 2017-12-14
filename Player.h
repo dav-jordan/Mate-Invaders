@@ -25,11 +25,4 @@ public:
 	const char * getVisual() const;
 	const int getMoveRate() const;
 
-/*TODO:
-	-Implement constructors
-	-Implement accessors
-	-Implement function that takes input from keyboard and calls a certain move
-	function from entity depending on what key is pressed
-	-Add a function that fires a laser when the space bar is pressed
-*/
 };
