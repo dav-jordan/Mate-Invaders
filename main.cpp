@@ -23,12 +23,8 @@ int main()
 			gamespace[k][i] = ' ';
 		gamespace[WIDTH-1][i] = '\n';
 	}
-	char c;
-	cin >> c;
-	if(c == 'w')
-		gameLoop();
-	printGame(gamespace);
-
+    Player *player = new Player(0, WIDTH/2, true, false);
+	playerLoop(player, gamespace);
 	exit(1);
 	
 }

@@ -1,4 +1,6 @@
 #include <iostream>
+#include "Player.h"
+#include "Entity.h"
 
 using namespace std;
 
@@ -14,8 +16,25 @@ namespace game
 	}
 	
 	//loop that keeps going until the game ends
-	void gameLoop()
+	void playerLoop(Player *player, char space[][50])
 	{
 		cout << "Running game loop" << endl;
+		while(true)
+        {
+            char input;
+            cin >> input;
+            if(input == 'a')
+            {
+                player->moveLeft();
+            }
+            else if(input == 'd')
+            {
+                player->moveRight();
+            }
+            else if(input == '\b')
+            {
+                break;
+            }
+        }
 	}	
 };
