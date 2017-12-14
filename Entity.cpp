@@ -9,7 +9,7 @@ Entity::Entity()
 {
 	this->x = 0;
 	this->y = 0;
-	this->moveable = false;
+    this->moveable = false;
 	this->ai = false;
 }
 Entity::Entity(int x, int y)
