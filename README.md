@@ -25,3 +25,9 @@ CHANGELOG:
 -Implemented Player Constructor and Accessors
 -Added basic game methods in game namespace. Still need implementation
 -TODO-figure out how to continue program while waiting for input-threading
+
+12/14/17
+-Began working in IDE instead of terminal and text editor (why haven't I been doing this all along)
+-Added parameters to printGame and playerLoop to make life slightly easier
+-Implemented playerLoop and printGame functions (more testing needed)
+-removed TODO list in Player because everything in the list is done
