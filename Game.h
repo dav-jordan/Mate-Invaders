@@ -12,6 +12,17 @@ namespace game
     vector<Entity*> entities;
 
 
+    //@param-gamespace array
+    //      -vector array to print to gamespace from
+    //places entities onto space array
+    void drawEntities(char space[][50], vector<Entity*> entities)
+    {
+        for(int i = 0; i < entities.size(); i++)
+        {
+            space[entities[i]->xPos()][entities[i]->yPos()] = entities[i]->getVisual();
+        }
+    }
+
 	//@param- array to print
     //      -width and height of space
 	//prints gamespace array
@@ -54,7 +65,7 @@ namespace game
                 //ends game if backspace is pressed
                 break;
             }
-            //drawEntities(space, entities);
+            drawEntities(space, entities);
             printGame(space, width, height);
         }
 	}	

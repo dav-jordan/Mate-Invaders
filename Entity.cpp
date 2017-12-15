@@ -68,11 +68,3 @@ bool Entity::isAi() const
 	return ai;
 }
 
-//places entities onto space array
-void Entity::drawEntities(char space[][50], vector<Entity> entities)
-{
-	for(int i = 0; i < entities.size(); i++)
-	{
-		space[entities[i].xPos()][entities[i].yPos()] = entities[i].getVisual();
-	}
-}

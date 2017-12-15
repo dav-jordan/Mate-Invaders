@@ -42,6 +42,5 @@ public:
 	bool isAi() const;
     const char getVisual();
 
-    //draws Entities at their x,y coordinates
-    void drawEntities(char[][50], vector<Entity>);
+
 };
