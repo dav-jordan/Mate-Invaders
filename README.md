@@ -31,3 +31,4 @@ CHANGELOG:
 -Added parameters to printGame and playerLoop to make life slightly easier
 -Implemented playerLoop and printGame functions (more testing needed)
 -removed TODO list in Player because everything in the list is done
+-Added vector to store entities and got the gamespace to print with moderate success
