@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <stdlib.h>
 #include "Player.h"
 #include "Entity.h"
 
@@ -30,6 +31,9 @@ namespace game
 	void printGame(char space[][50], int width, int height)
 	{
         cout << "Printing gamespace" << endl;
+        cout << "About to clear screen" << endl;
+
+        system("clear");
         for(int i = 0; i < width; i++)
         {
             for(int k = 0; k < height; k++)
