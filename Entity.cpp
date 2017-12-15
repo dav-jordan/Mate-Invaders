@@ -67,4 +67,7 @@ bool Entity::isAi() const
 {
 	return ai;
 }
-
+const char Entity::getVisual()
+{
+    return visual;
+}

@@ -14,8 +14,6 @@
     <list default="true" id="94800bb4-1159-4a28-b2d3-b959d28326bd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Entity.cpp" afterPath="$PROJECT_DIR$/Entity.cpp" />
-      <change beforePath="$PROJECT_DIR$/Entity.h" afterPath="$PROJECT_DIR$/Entity.h" />
-      <change beforePath="$PROJECT_DIR$/Game.h" afterPath="$PROJECT_DIR$/Game.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +49,8 @@
             <file leaf-file-name="Entity.cpp" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/Entity.cpp">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="543">
-                    <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+                  <state relative-caret-position="583">
+                    <caret line="70" column="1" lean-forward="true" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
                     <folding>
                       <element signature="e#0#19#0" expanded="true" />
                     </folding>
@@ -72,7 +70,7 @@
               <entry file="file://$PROJECT_DIR$/main.cpp">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="465">
-                    <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+                    <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
                     <folding>
                       <element signature="e#0#19#0" expanded="true" />
                     </folding>
@@ -109,8 +107,8 @@
             <file leaf-file-name="Game.h" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/Game.h">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="-47">
-                    <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+                  <state relative-caret-position="496">
+                    <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
                     <folding>
                       <element signature="e#0#19#0" expanded="true" />
                     </folding>
@@ -129,8 +127,8 @@
       <file leaf-file-name="Entity.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Entity.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="496">
+              <caret line="42" column="10" lean-forward="false" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
               <folding>
                 <element signature="e#14#33#0" expanded="true" />
               </folding>
@@ -149,9 +147,9 @@
         <option value="$PROJECT_DIR$/Player.cpp" />
         <option value="$PROJECT_DIR$/Player.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Game.h" />
         <option value="$PROJECT_DIR$/Entity.h" />
         <option value="$PROJECT_DIR$/Entity.cpp" />
-        <option value="$PROJECT_DIR$/Game.h" />
       </list>
     </option>
   </component>
@@ -226,7 +224,7 @@
       <workItem from="1513269997635" duration="381000" />
       <workItem from="1513287017344" duration="2243000" />
       <workItem from="1513296409357" duration="44000" />
-      <workItem from="1513297101509" duration="2962000" />
+      <workItem from="1513297101509" duration="3340000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented printGame. Testing still needed to be done.">
       <created>1513288709974</created>
@@ -305,11 +303,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513304602755</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Moved drawEntities to game namespace">
+      <created>1513304898399</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1513304898399</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5630000" />
+    <option name="totallyTimeSpent" value="6008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="689" y="36" width="683" height="757" extended-state="0" />
@@ -353,7 +358,8 @@
     <MESSAGE value="Took out entity vector to be moved somewhere else" />
     <MESSAGE value="Added Entity vector to Game" />
     <MESSAGE value="Pushed player to entity vector and called drawEntities in Game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pushed player to entity vector and called drawEntities in Game" />
+    <MESSAGE value="Moved drawEntities to game namespace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved drawEntities to game namespace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -437,6 +443,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Player.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -445,10 +461,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/Game.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        <state relative-caret-position="496">
+          <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -457,8 +473,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Entity.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="496">
+          <caret line="42" column="10" lean-forward="false" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
           <folding>
             <element signature="e#14#33#0" expanded="true" />
           </folding>
@@ -467,18 +483,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Entity.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="583">
+          <caret line="70" column="1" lean-forward="true" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
