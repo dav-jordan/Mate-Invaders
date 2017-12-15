@@ -1,6 +1,7 @@
 #pragma once
 
 #include <iostream>
+#include <vector>
 using namespace std;
 
 //The entity class is the super class of all entities in the game, 
@@ -37,5 +38,8 @@ public:
 	int xPos() const;
 	int yPos() const;
 	bool isMoveable() const;
-	bool isAi() const;	
+	bool isAi() const;
+
+    //draws Entities at their x,y coordinates
+    void drawEntities(char[][50], vector<Entity>);
 };

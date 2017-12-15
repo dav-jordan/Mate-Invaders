@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Entity.h"
+#include <vector>
 using namespace std;
 
 //constructors used for entity and its subclasses
@@ -64,4 +65,9 @@ bool Entity::isMoveable() const
 bool Entity::isAi() const
 {
 	return ai;
+}
+
+//places entities onto space array
+void Entity::drawEntities(char space[][50], vector<Entity> entities)
+{
 }
