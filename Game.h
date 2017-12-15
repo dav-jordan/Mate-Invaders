@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 #include "Player.h"
 #include "Entity.h"
 
@@ -7,6 +8,10 @@ using namespace std;
 //namespace for general game functions
 namespace game
 {
+    //vector that will store all entities
+    vector<Entity*> entities;
+
+
 	//@param- array to print
     //      -width and height of space
 	//prints gamespace array
