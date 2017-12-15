@@ -14,7 +14,6 @@ class Player: public Entity
 //since images can not be used in a terminal
 //The player also has a moveRate which determines how much the player can move in one second
 private:
-	const char * visual = "A";
 	const int moveRate = 5;	
 
 public:
