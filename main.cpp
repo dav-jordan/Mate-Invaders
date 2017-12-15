@@ -18,8 +18,6 @@ int main()
 	//2d array to represent positions on the terminal screen
 	char gamespace[WIDTH][HEIGHT];
 
-    //vector that will store all entities
-    vector<Entity*> entities;
 
 	//initialize the gamespace array
 	for(int i = 0; i < HEIGHT; i++)
@@ -31,7 +29,6 @@ int main()
 	}
     //
     Player *player = new Player(0, WIDTH/2, true, false, 'a');
-    entities.push_back(player);
 	playerLoop(player, gamespace, WIDTH, HEIGHT);
 	exit(1);
 	
