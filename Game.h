@@ -5,7 +5,6 @@
 using namespace std;
 
 //namespace for general game functions
-//TODO: implement functions
 namespace game
 {
 	//@param- array to print
