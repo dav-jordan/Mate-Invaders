@@ -33,6 +33,7 @@ namespace game
         cout << "Printing gamespace" << endl;
         cout << "About to clear screen" << endl;
 
+        //clears screen before printing
         system("clear");
         for(int i = 0; i < width; i++)
         {

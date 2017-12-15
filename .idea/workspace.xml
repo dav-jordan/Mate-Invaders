@@ -107,8 +107,8 @@
             <file leaf-file-name="Game.h" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/Game.h">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="472">
-                    <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+                  <state relative-caret-position="487">
+                    <caret line="35" column="39" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
                     <folding>
                       <element signature="e#0#19#0" expanded="true" />
                     </folding>
@@ -224,7 +224,7 @@
       <workItem from="1513269997635" duration="381000" />
       <workItem from="1513287017344" duration="2243000" />
       <workItem from="1513296409357" duration="44000" />
-      <workItem from="1513297101509" duration="3934000" />
+      <workItem from="1513297101509" duration="3985000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented printGame. Testing still needed to be done.">
       <created>1513288709974</created>
@@ -331,11 +331,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513305544368</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added line that clears screen before printing array">
+      <created>1513305861250</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1513305861250</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6602000" />
+    <option name="totallyTimeSpent" value="6653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="689" y="36" width="683" height="757" extended-state="0" />
@@ -383,7 +390,8 @@
     <MESSAGE value="Implemented getVisual in Entity cuz I forgot to" />
     <MESSAGE value="Added print statements for testing" />
     <MESSAGE value="Took visual out of player class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Took visual out of player class" />
+    <MESSAGE value="Added line that clears screen before printing array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added line that clears screen before printing array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -507,8 +515,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Game.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+        <state relative-caret-position="487">
+          <caret line="35" column="39" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
