@@ -54,7 +54,7 @@ namespace game
                 //ends game if backspace is pressed
                 break;
             }
-
+            //drawEntities(space, entities);
             printGame(space, width, height);
         }
 	}	

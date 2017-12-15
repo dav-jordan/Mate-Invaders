@@ -29,6 +29,7 @@ int main()
 	}
     //
     Player *player = new Player(0, WIDTH/2, true, false, 'a');
+	entities.push_back(player);
 	playerLoop(player, gamespace, WIDTH, HEIGHT);
 	exit(1);
 	
