@@ -26,7 +26,7 @@ int main()
 		gamespace[WIDTH-1][i] = '\n';
 	}
     //
-    Player *player = new Player(0, WIDTH/2, true, false);
+    Player *player = new Player(0, WIDTH/2, true, false, 'a');
 	playerLoop(player, gamespace, WIDTH, HEIGHT);
 	exit(1);
 	

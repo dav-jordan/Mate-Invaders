@@ -20,12 +20,13 @@ Entity::Entity(int x, int y)
 	this->moveable = false;
 	this->ai = false;
 }
-Entity::Entity(int x, int y, bool moveable, bool ai)
+Entity::Entity(int x, int y, bool moveable, bool ai, const char visual)
 {
 	this->x = x;
 	this->y = y;
 	this->moveable = moveable;
 	this->ai = ai;
+	this->visual = visual;
 }
 
 //moving functions
@@ -70,4 +71,8 @@ bool Entity::isAi() const
 //places entities onto space array
 void Entity::drawEntities(char space[][50], vector<Entity> entities)
 {
+	for(int i = 0; i < entities.size(); i++)
+	{
+		space[entities[i].xPos()][entities[i].yPos()] = entities[i].getVisual();
+	}
 }

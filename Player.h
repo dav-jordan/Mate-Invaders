@@ -19,10 +19,9 @@ private:
 
 public:
 	//Constructors
-	Player(int, int, bool, bool);
+	Player(int, int, bool, bool, const char);
 	
 	//accessors
-	const char * getVisual() const;
 	const int getMoveRate() const;
 
 };

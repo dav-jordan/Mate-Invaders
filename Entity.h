@@ -17,12 +17,13 @@ private:
 	int y;
 	bool moveable;
 	bool ai;
+    bool visual;
 
 public:
 	//constructors
 	Entity();
-	Entity(int x, int y);
-	Entity(int x, int y, bool moveable, bool ai);
+	Entity(int, int);
+	Entity(int, int, bool, bool, const char);
 	//destructor
 	~Entity();
 	
@@ -39,6 +40,7 @@ public:
 	int yPos() const;
 	bool isMoveable() const;
 	bool isAi() const;
+    const char getVisual();
 
     //draws Entities at their x,y coordinates
     void drawEntities(char[][50], vector<Entity>);
