@@ -17,6 +17,7 @@ namespace game
     //places entities onto space array
     void drawEntities(char space[][50], vector<Entity*> entities)
     {
+        cout << "Drawing entities to gamespace" << endl;
         for(int i = 0; i < entities.size(); i++)
         {
             space[entities[i]->xPos()][entities[i]->yPos()] = entities[i]->getVisual();
@@ -28,6 +29,7 @@ namespace game
 	//prints gamespace array
 	void printGame(char space[][50], int width, int height)
 	{
+        cout << "Printing gamespace" << endl;
         for(int i = 0; i < width; i++)
         {
             for(int k = 0; k < height; k++)
@@ -45,6 +47,7 @@ namespace game
     //handles player movement and action
 	void playerLoop(Player *player, char space[][50], int width, int height)
 	{
+        cout << "Starting player loop" << endl;
 		while(true)
         {
             //take input from command line
